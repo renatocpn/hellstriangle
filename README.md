@@ -1,7 +1,7 @@
 # hellstriangle
 My solution to 'Hells Triangle' problem
 
-##Problem
+## Problem
 Given a triangle of numbers, find the maximum total from top to bottom
 Example:
 ```
@@ -12,9 +12,9 @@ Example:
 ```
 In this triangle the maximum total is: 6 + 5 + 7 + 8 = 26
 
-##Solution
-###Laws
-####Law 1
+## Solution
+### Laws
+#### Law 1
 
 -row 0 - 1 element
 -row 1 - 2 elements
