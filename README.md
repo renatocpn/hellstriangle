@@ -37,3 +37,25 @@ Consider node(i,j) as a node from row i and position j
 #### Law 3
 
 For this example, the value of all nodes are positive integer. Zero is a valid value too.
+
+### Execution
+
+This solution was developed on a PHP 7.1 + nginx environment. Just clone this repository to any directory that the webserver can access.
+
+Run on browser http://[your-host]/[path-to-clone]/index.php and the browser will show [this](https://www.diigo.com/file/image/baqqeobazeeobbeqrazddppeerq/Hell%27s+Triangle+challenge.jpg).
+
+Fill in the values as you wish and submit it. The server will process the request and show the answer, or an error if the given triangle is not valid.
+
+### Testing
+
+To execute the tests, it is necessary to install the PHPUnit via Composer. In the server, navigate to the root folder of this project and run the command:
+
+```
+php composer.phar install
+```
+
+This will download all the dependencies to execute the tests. Now it's time to execute them. Run the folowing command:
+
+```
+./vendor/bin/phpunit
+```
