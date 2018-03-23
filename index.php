@@ -60,9 +60,7 @@ if (isset($_REQUEST['triangle'])) {
         }
     }
 
-    spl_autoload_extensions(".php"); 
-    spl_autoload_register();
-
+    require_once(__DIR__.DIRECTORY_SEPARATOR.'HellsTriangle'.DIRECTORY_SEPARATOR.'Triangle.php');
 
     $triangle = new HellsTriangle\Triangle();
 
