@@ -13,6 +13,9 @@ Example:
 In this triangle the maximum total is: 6 + 5 + 7 + 8 = 26
 
 ## Solution
+
+PHP was the chosen language because I feel very confortable with it. But the aproach used on this solution could easily be developed in many other languages, with Object-Oriented or Functional programming.
+
 ### Laws
 #### Law 1
 
